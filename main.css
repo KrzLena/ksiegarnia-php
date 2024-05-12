@@ -1,0 +1,33 @@
+.box
+{
+    border: 2px solid rgb(147, 175, 216);
+    color:rgb(147, 175, 216);
+    background-color: rgb(19, 53, 105);
+    padding: 100px;
+    margin:140px;
+    text-align: center;
+}
+
+.buttons
+{
+    border: 2px solid rgb(147, 175, 216);
+    color:rgb(147, 175, 216);
+    background-color: rgb(18, 36, 63);
+    width: 800px;
+    height: 120px;
+    font-size: 70px;
+    text-align: center;
+    margin:10px;
+    font-family: Impact;
+}
+
+body
+{
+    background-color: rgb(18, 36, 63);
+    color:rgb(147, 175, 216);
+}
+footer
+{
+    text-align: right;
+    font-family: sans-serif;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>★Strona startowa★</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class = "box">
+        <button class = "buttons" id="b1" onmouseenter = "on()" onmouseleave = "off()">✩  Zaloguj  ✩</button><br>
+        <button class = "buttons" id="b2" onmouseenter = "on2()" onmouseleave = "off2()">✩  Zarejestruj  ✩</button><br>
+        <button class = "buttons" id="b3" onmouseenter = "on3()" onmouseleave = "off3()">✩  Przeglądaj zasoby  ✩</button><br>
+    </div>
+    <footer>Lena Krzciuk 2024</footer>
+
+    <script type="text/javascript">
+        var but1 = document.getElementById("b1");
+        var but2 = document.getElementById("b2");
+        var but3 = document.getElementById("b3");
+        function on()
+        {
+            but1.style.backgroundColor= 'rgb(147, 175, 216)';
+            but1.style.color= 'rgb(18, 36, 63)';
+        }
+        function off()
+        {
+            but1.style.backgroundColor= 'rgb(18, 36, 63)';
+            but1.style.color= 'rgb(147, 175, 216)';
+        }
+
+        function on2()
+        {
+            but2.style.backgroundColor= 'rgb(147, 175, 216)';
+            but2.style.color= 'rgb(18, 36, 63)';
+        }
+        function off2()
+        {
+            but2.style.backgroundColor= 'rgb(18, 36, 63)';
+            but2.style.color= 'rgb(147, 175, 216)';
+        }
+
+        function on3()
+        {
+            but3.style.backgroundColor= 'rgb(147, 175, 216)';
+            but3.style.color= 'rgb(18, 36, 63)';
+        }
+        function off3()
+        {
+            but3.style.backgroundColor= 'rgb(18, 36, 63)';
+            but3.style.color= 'rgb(147, 175, 216)';
+        }
+    </script>
+</body>
+</html>
+
